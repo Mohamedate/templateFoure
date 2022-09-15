@@ -401,13 +401,12 @@ position: relative;
     gap: 30px;
 }
 .articles .container .box { 
-   
- 
     border-radius: 6px;
     overflow: hidden;
-  
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     transition: var(--main-transition);
+    max-width: 300px;
+    justify-self: center;
 
 }
 .articles .container .box:hover { 
@@ -1715,6 +1714,9 @@ margin-right: 10px;
     text-align: center;
     border-top: 2px  solid #444;
     margin: 50px 0 0;
+            }
+            footer .copyright a { 
+                color: var(--main-color);
             }
             /* UP */
 .up { 
